@@ -1,0 +1,27 @@
+<p>
+	<?php echo $this->form; ?>
+	<hr>
+	<?php echo $this->mensagem; ?>
+
+	<?php
+	if ($this->dado != ""){
+		?>
+		<table summary="" border="1">
+			<caption>Listagem de Curso(s)</caption>
+			<tr>
+				<th>Nome</th>
+			</tr>
+			<?php 
+			if(isset($this->dado )){
+				foreach ($this->dado as $curso ) {
+						echo 	'<tr>' .
+								'<td>' . $curso->nome . '</td>'.
+								'</tr>';
+				}
+			}
+			?>
+		</table>
+		<?php
+	}
+	?>
+</p>

@@ -1,0 +1,16 @@
+<?php echo $this->render("header.phtml"); ?>
+<body>
+<div id="estrutura">
+	<?php echo $this->render("topo.phtml"); ?>
+	<?php echo $this->render("menu.phtml"); ?>
+	<div id="content">
+		<?php echo $this->render("chamada.phtml"); ?>
+		<div id="conteudo">
+			<?php echo $this->Layout()->content; ?>
+		</div>
+	</div>
+	<hr />
+	<?php echo $this->render("footer.phtml"); ?>
+</div>
+</body>
+</html>

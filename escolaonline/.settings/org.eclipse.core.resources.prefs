@@ -1,0 +1,9 @@
+#Tue Nov 16 15:38:41 BRST 2010
+eclipse.preferences.version=1
+encoding//application/default/controllers/IndexController.php=UTF-8
+encoding//application/default/views/layouts/menu.phtml=UTF-8
+encoding//application/default/views/scripts/index/materia.phtml=UTF-8
+encoding//application/default/views/scripts/index/materiacurso.phtml=UTF-8
+encoding//application/default/views/scripts/index/user.phtml=UTF-8
+encoding//library/uson/form/materiacursoForm.php=UTF-8
+encoding//library/uson/form/userForm.php=UTF-8

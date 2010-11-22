@@ -1,0 +1,170 @@
+/** CSS RESET **/
+* {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: white url(../images/background_body.jpg) repeat-x;
+}
+
+img {border:none;}
+hr {display: none;}
+p {padding-bottom: 8px;}
+
+a {
+	color: #605f5f;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#estrutura {
+	width: 983px;
+	text-align: left;
+	margin: 0 auto;
+}
+/* Topo do site */
+#topo {
+	background-color: #f4f4f4;
+	height: 75px;
+	padding: 11px 0 0 0;
+}
+
+#logo,#slogan{
+	float: left;
+}
+
+#toolbar {
+	float: right;
+	padding-top: 29px;
+	
+}
+
+#logo {
+	padding: 0 15px 0 0;
+}
+
+#logo h1 {
+  color: #8f8f8f;	
+  font: bold 14px Verdana, Arial, sans-serif;
+  line-height: 60px;  
+  background: url(../images/logo.jpg) no-repeat;
+  text-indent: -999px;
+  width: 211px;
+  height: 71px;
+}
+
+#slogan {
+	height: 60px;
+	line-height: 98px;
+	border-left: 1px solid #d0d0d0;
+	padding: 0 0 0 16px;
+}
+
+#slogan h2 {
+	font: normal 12px Verdana, Arial, sans-serif;
+	color: #8f8f8f;
+	line-height: 60px;
+}
+/* toolbar menu */
+#toolbar {
+	float: right;
+	font: bold 11px Arial, Verdana, sans-serif;
+	height: 26px;
+}
+
+#toolbar ul li {
+	float: left;
+	line-height: 26px;
+}
+
+#toolbar ul li a {
+	display: block;
+	background: #bbb;
+	margin: 2px;
+	padding: 0 5px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+#toolbar ul li.left a {
+	background: #bbb url(../images/toolbar_left.jpg) left no-repeat;
+}
+#toolbar ul li.right a {
+	background: #bbb url(../images/toolbar_right.jpg) right no-repeat;
+}
+#toolbar ul li a:hover {
+	background: #bbb url(../images/toolbar_hover.jpg) center bottom no-repeat;
+}
+
+#toolbar ul li.left a:hover {
+	background: #bbb url(../images/toolbar_left_hover.jpg) left no-repeat;
+}
+
+#toolbar ul li.right a:hover {
+	background: #bbb url(../images/toolbar_right_hover.jpg) right no-repeat;
+}
+
+/* menu principal */
+#menu {
+	background: #515c7a url(../images/menu_background.jpg) no-repeat;	
+	height: 28px;
+	clear: both;
+}
+
+#menu ul li {
+	float: left;
+}
+#menu ul li a {	
+	display:block;
+	font: normal 12px Verdana, tahoma, sans-serif;
+	line-height: 26px;
+	color: white;
+	padding: 0 18px;
+	background: url(../images/menu_separador.jpg) right center no-repeat; 
+
+}
+
+#menu ul li a .selected {	
+	color: yellow; 
+}
+
+#menu ul li a:hover {
+	text-decoration: underline;	
+}
+
+#menu ul li.right a {
+	background: none;
+}
+
+
+
+#conteudo {
+	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+/*
+ * #chamada-principal {
+	background: url(../images/img_chamada.jpg)  no-repeat;
+	height: 200px;
+	width: 983px;
+}
+*/
+
+#footer {
+	background: url(../images/footer.jpg)  no-repeat;
+	height: 28px;
+	width: 983px;
+	clear: both;
+	text-align: center;
+	font: 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 28px;
+}

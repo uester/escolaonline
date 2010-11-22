@@ -1,0 +1,31 @@
+<p>
+	<?php echo $this->form; ?>
+	<hr>
+	<?php echo $this->mensagem; ?>
+
+	<?php
+	if ($this->dado != ""){
+		?>
+		<table summary="" border="1">
+			<caption>Listagem de Usuário(s)</caption>
+			<tr>
+				<th>Nome</th>
+				<th>Senha</th>
+				<th>RA</th>
+			</tr>
+			<?php 
+			if(isset($this->dado )){
+				foreach ($this->dado as $user ) {
+						echo 	'<tr>' .
+								'<td>' . $user->nome . '</td>'.
+								'<td>' . $user->senha . '</td>'.
+								'<td>' . $user->ra . '</td>'.
+								'</tr>';
+				}
+			}
+			?>
+		</table>
+		<?php
+	}
+	?>
+</p>
